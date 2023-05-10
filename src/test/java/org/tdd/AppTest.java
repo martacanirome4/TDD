@@ -25,8 +25,20 @@ public class AppTest {
      * Rigorous Test :-)
      */
     @Test
-    public void SumaNparaUno() {
+    public void SumNUno() {
         int resultado = myApp.SumN(1);
         assertTrue( resultado == 1 );
+    }
+
+    @Test
+    public void SumNmayorQueUno() {
+        int resultado = myApp.SumN(4);
+        assertTrue( resultado == 4 );
+    }
+
+    @Test
+    public void SumNmayorCero() {
+        int resultado = myApp.SumN(0);
+        assertTrue( resultado == 0 );
     }
 }
