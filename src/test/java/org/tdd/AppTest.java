@@ -41,4 +41,16 @@ public class AppTest {
         int resultado = myApp.SumN(0);
         assertTrue( resultado == 0 );
     }
+
+    @Test
+    public void factorialCero() {
+        int resultado = myApp.factorial(0);
+        assertTrue( resultado == 1 );
+    }
+
+    @Test
+    public void factorialMayorCero() {
+        int resultado = myApp.factorial(4);
+        assertTrue( resultado == 24 );
+    }
 }

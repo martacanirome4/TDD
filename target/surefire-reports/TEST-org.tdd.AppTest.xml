@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.tdd.AppTest" time="0.041" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.tdd.AppTest" time="0.038" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/20/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/martacaninoromero/IdeaProjects/matematicas/target/surefire/surefirebooter14074179503355557770.jar /Users/martacaninoromero/IdeaProjects/matematicas/target/surefire 2023-05-10T13-06-50_162-jvmRun1 surefire1289518765425839775tmp surefire_04875476699863019303tmp"/>
+    <property name="sun.java.command" value="/Users/martacaninoromero/IdeaProjects/matematicas/target/surefire/surefirebooter108544909001739226.jar /Users/martacaninoromero/IdeaProjects/matematicas/target/surefire 2023-05-10T13-17-50_668-jvmRun1 surefire3443642811534148893tmp surefire_012268260753339886807tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/martacaninoromero/IdeaProjects/matematicas/target/test-classes:/Users/martacaninoromero/IdeaProjects/matematicas/target/classes:/Users/martacaninoromero/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/martacaninoromero/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/martacaninoromero/IdeaProjects/matematicas/target/surefire/surefirebooter14074179503355557770.jar"/>
+    <property name="surefire.real.class.path" value="/Users/martacaninoromero/IdeaProjects/matematicas/target/surefire/surefirebooter108544909001739226.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20"/>
@@ -58,5 +58,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="SumaNparaUno" classname="org.tdd.AppTest" time="0.003"/>
+  <testcase name="SumNmayorCero" classname="org.tdd.AppTest" time="0.004"/>
+  <testcase name="SumNUno" classname="org.tdd.AppTest" time="0"/>
+  <testcase name="factorialCero" classname="org.tdd.AppTest" time="0"/>
+  <testcase name="factorialMayorCero" classname="org.tdd.AppTest" time="0"/>
+  <testcase name="SumNmayorQueUno" classname="org.tdd.AppTest" time="0"/>
 </testsuite>
