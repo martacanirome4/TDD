@@ -5,8 +5,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -64,5 +63,19 @@ public class AppTest {
     public void potenciaExponenteUno() {
         int resultado = myApp.potencia(2, 1);
         assertTrue( resultado == 2 );
+    }
+
+    @Test
+    public void SumNListVacio() {
+        ArrayList<Integer> lista = new ArrayList<Integer>();
+        int resultado = myApp.SumNList(lista);
+        assertTrue( resultado == 0 );
+    }
+
+    @Test
+    public void SumNListNoVacio() {
+        List<Integer> lista = Arrays.asList(1,2);
+        int resultado = myApp.SumNList(lista);
+        assertTrue( resultado == 3 );
     }
 }
