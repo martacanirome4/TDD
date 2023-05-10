@@ -53,4 +53,16 @@ public class AppTest {
         int resultado = myApp.factorial(4);
         assertTrue( resultado == 24 );
     }
+
+    @Test
+    public void potenciaExponenteCero() {
+        int resultado = myApp.potencia(2, 0);
+        assertTrue( resultado == 1 );
+    }
+
+    @Test
+    public void potenciaExponenteUno() {
+        int resultado = myApp.potencia(2, 1);
+        assertTrue( resultado == 2 );
+    }
 }

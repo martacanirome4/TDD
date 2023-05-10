@@ -16,4 +16,9 @@ public class App {
         if (n == 4) { return 24; }
         return 0;
     }
+
+    public int potencia (int n, int p) {
+        if (p == 0) { return 1; }
+        else { return n; }
+    }
 }
